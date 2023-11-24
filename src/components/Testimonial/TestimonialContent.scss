@@ -50,8 +50,18 @@
     .testimonial {
       gap:10px;
     }
+    .name {
+      white-space: nowrap;
+      font-size: 14px;
+    }
+    .role {
+      font-size: 11px;
+    }
     .comment { 
       height: max-content;
-      font-size: 14px;
+      font-size: 13px;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+      height: max-content;
     }
   }
