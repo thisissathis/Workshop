@@ -145,15 +145,21 @@
 .slick-slider{
   width:500px;
   background-color: transparent;
+  background: none;
   border-radius: 8.4px;
   .slick-list{
-    background-color: transparent;
+    background-color: none;
+    background: none;
     border-radius: 8.4px;
     .slick-track{
-      background-color: transparent;
+      background-color: none;
       border-radius: 8.4px;
+      display: flex;
+      gap:5px;
+      background: none;
       .slick-slide{
-        background-color: transparent;
+        background-color: none;
+        background: none;
       }
     }
   }
