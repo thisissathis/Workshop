@@ -6,16 +6,9 @@ export default function ActionElements({ type, onClick, style, children }) {
 
   return (
     <>
-      {type === 'button' && (
-        <button className={buttonClasses} onClick={onClick} style={style}>
-          {children}
-        </button>
-      )}
-      {type === 'link' && (
-        <a href="#" className={buttonClasses} onClick={onClick} style={style}>
-          {children}
-        </a>
-      )}
+      <button className={buttonClasses} onClick={onClick} style={style}>
+        {children}
+      </button>
     </>
   );
 }

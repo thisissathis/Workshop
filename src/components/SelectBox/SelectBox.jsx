@@ -20,7 +20,7 @@ const SelectBox = ({ children, defaultSelectedOption }) => {
         </div>
       </div>
       {isDropdownOpen && (
-        <div className="options">
+        <div className="options" onClick={handleOptionClick}>
             {children}
         </div>
       )}
