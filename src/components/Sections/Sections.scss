@@ -52,7 +52,7 @@
         display: flex;
         flex-direction: column !important;
         .card{
-            max-width: 200px;
+            max-width: 200px !important;
         }
      }
      .testimonials > .comment{
