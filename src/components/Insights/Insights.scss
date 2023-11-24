@@ -162,12 +162,18 @@
 // Media query for mobile devices
 @media (max-width: 768px) {
   .insights-with-content {
-    max-width: 100%; // Adjust max-width for smaller screens
+    max-width: 100%;
+
+    .insights-icon {
+      width: 15px;
+      height: 15px;
+      margin-right: 16px;
+    }
   }
 
   .notificy-insights-with-action {
     .card {
-      margin-bottom: 10px; // Adjust spacing between cards
+      margin-bottom: 10px;
     }
   }
   
@@ -177,9 +183,5 @@
   .insights-subtext {
     font-size: 12px;
   }
-  .insights-icon {
-    width: 15px;
-    height: 15px;
-    margin-right: 16px;
-  }
+  
 }
