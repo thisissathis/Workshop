@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a01e2273.css",
+    "main.js": "/static/js/main.db1db164.js",
+    "static/media/cohort-full-size.png": "/static/media/cohort-full-size.ba170fdfd610fabb2848.png",
+    "static/media/watch-eye-icon.svg": "/static/media/watch-eye-icon.b744b050a502f3ebfab119edf373f5f6.svg",
+    "static/media/notify-bell-icon.svg": "/static/media/notify-bell-icon.60c480353d4bfe60e49226a42c1e0878.svg",
+    "static/media/loch-logo.svg": "/static/media/loch-logo.610964c462f09b20454b4e62a2bae836.svg",
+    "static/media/notification-bell-icon.svg": "/static/media/notification-bell-icon.b0fa675ef60fe655ecd21c866234f9d7.svg",
+    "index.html": "/index.html",
+    "static/media/clock-time-icon.svg": "/static/media/clock-time-icon.07e8689d73f1524561fd0152b37fee5c.svg",
+    "static/media/bar-chart-icon.svg": "/static/media/bar-chart-icon.355cfcca20c8e72d80e0fbb635b03d4f.svg",
+    "static/media/dropdown-icon.svg": "/static/media/dropdown-icon.723a350e7b4a4ded41a25fc7f409087f.svg",
+    "main.a01e2273.css.map": "/static/css/main.a01e2273.css.map",
+    "main.db1db164.js.map": "/static/js/main.db1db164.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a01e2273.css",
+    "static/js/main.db1db164.js"
+  ]
+}
