@@ -51,6 +51,9 @@
     .testimonials-section {
         display: flex;
         flex-direction: column !important;
+        .card{
+            max-width: 200px;
+        }
      }
      .testimonials > .comment{
          height: max-content;
