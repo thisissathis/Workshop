@@ -159,3 +159,15 @@
   }
 }
 
+// Media query for mobile devices
+@media (max-width: 768px) {
+  .insights-with-content {
+    max-width: 100%; // Adjust max-width for smaller screens
+  }
+
+  .notificy-insights-with-action {
+    .card {
+      margin-bottom: 10px; // Adjust spacing between cards
+    }
+  }
+}
