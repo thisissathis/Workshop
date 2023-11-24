@@ -48,7 +48,7 @@ console.log("testimonialsRecords" , testimonialsRecords)
           <img src={lochLogo} alt="loch Logo" className="logo-image" />
         </div>
         <div
-          className='insights-section testimonials-section'
+          className='testimonials-section'
           style={{ gap: '20px', overflowX: 'hidden' }}
           ref={testimonialsRef}
           onMouseDown={handleMouseDown}

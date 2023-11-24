@@ -9,6 +9,13 @@
     //     height: 15px;
     // }
 }
+.testimonials-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px 10px;
+    gap: 10px;
+}
 
 .testimonials{
     .testimonial-content{
@@ -40,12 +47,13 @@
       }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .testimonials-section {
-      flex-direction: row;
-    }
-    .testimonial-content {
         display: flex;
-        flex-direction: column;
-      }
-}
+        flex-direction: column !important;
+     }
+     .testimonials > .comment{
+         height: max-content;
+         font-size: 14px !important;
+     }
+  }

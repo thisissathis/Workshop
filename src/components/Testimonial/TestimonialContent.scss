@@ -46,4 +46,12 @@
     text-align: justify;
   }
  
-  
+  @media (max-width: 768px) {
+    .testimonial {
+      gap:10px;
+    }
+    .comment { 
+      height: max-content;
+      font-size: 14px;
+    }
+  }
