@@ -20,17 +20,20 @@ export default function Signup() {
         if (emailValidator(email)) {
             window.location.href = 'https://app.loch.one/welcome';
         } else {
-            seterror("The provided email address not valid, Please check and update!")
+            seterror("Please enter a valid email")
         }
     };
 
     const checkEmailAddress= (email) => {
-        if (emailValidator(email)) {
-            console.log("This is Valid email Address",email )
-            seterror("");
-        } else {
-            seterror("The provided email address not valid, Please check and update!")
+        if(error){
+            if (emailValidator(email)) {
+                console.log("This is Valid email Address",email )
+                seterror("");
+            } else {
+                seterror("Please enter a valid email")
+            }
         }
+        
     };
     
   return (

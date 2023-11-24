@@ -63,11 +63,19 @@
   flex-direction: row;
   justify-content: space-around;
   gap:10px;
+  overflow: hidden;
   .card{
     height: fit-content;
-    padding: 14px;
+    background-color: none;
+    background: none;
+    box-shadow: none;
+    padding: 0px;
     .notification-card{
       display: flex;
+      padding: 15px;
+      border-radius: 8.4px;
+      background: #FFF;
+      box-shadow: 0px 0.7px 0.7px 0px rgba(0, 0, 0, 0.04), 0px 2.8px 7px 0px rgba(0, 0, 0, 0.04);
       flex-direction: column;
       height: fit-content;
       width: 170px;
@@ -120,6 +128,10 @@
     }
     .selectbox-card{
       gap: 35px;
+      padding: 15px;
+      border-radius: 8.4px;
+      background: #FFF;
+      box-shadow: 0px 0.7px 0.7px 0px rgba(0, 0, 0, 0.04), 0px 2.8px 7px 0px rgba(0, 0, 0, 0.04);
       .selectbox-notify-message{
         font-size: 11.2px;
         margin-top: 8px;
@@ -130,4 +142,20 @@
     }
   }
 }
-  
+.slick-slider{
+  width:500px;
+  background-color: transparent;
+  border-radius: 8.4px;
+  .slick-list{
+    background-color: transparent;
+    border-radius: 8.4px;
+    .slick-track{
+      background-color: transparent;
+      border-radius: 8.4px;
+      .slick-slide{
+        background-color: transparent;
+      }
+    }
+  }
+}
+

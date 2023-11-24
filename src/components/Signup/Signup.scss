@@ -26,7 +26,6 @@
   
   @mixin input-field-styles {
     height: fit-content;
-    width: fit-content;
     border-radius: 8px;
     border: 1px solid #E5E5E6;
     background: #FFF;
@@ -44,16 +43,16 @@
     .signup-header {
       color: #B0B1B3;
       font-family: Inter;
-      font-size: 20px;
+      font-size: 25px;
       font-style: normal;
       font-weight: 500;
       line-height: 120%;
-      width: 175px;
+      width: 250px;
       gap: 20px;
     }
   
     .signup-actions {
-      @include flex-column(center, center);
+      @include flex-column(center, center, 10px);
   
       .input-with-action {
         @include flex-column(center, center, 15px);
@@ -62,9 +61,21 @@
           margin: 0;
   
           .input-field {
+            width:200px;
             @include input-field-styles;
             font-size:12px;
             padding: 10px 25px;
+            color: #19191A;
+            font-weight: 500;
+          }
+          .input-field:hover {
+            font-size:12px;
+            padding: 10px 25px;
+            border: 1px solid #B0B1B3;
+          }
+          &::placeholder {
+            color: #CACBCC;
+            font-size: 11px;
           }
         }
   
