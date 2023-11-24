@@ -2,7 +2,7 @@ import React from 'react'
 import InsightsWithContent from '../Insights/InsightsWithContent';
 import notifybellIcon from "../../assets/icons/notify-bell-icon.svg";
 import NotifyInsightsWithAction from '../Insights/NotifyInsightsWithAction';
-
+import "./Sections.scss"
 export default function NotifyInsights() {
   return (
     <div className='insights-section'>
