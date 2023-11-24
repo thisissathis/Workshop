@@ -1,0 +1,26 @@
+.input-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .input-field {
+    cursor:text; //remove if need to work as input box
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5.6px;
+    border: 0.7px solid #D4D4D4;
+    background: #FFF;
+    display: flex;
+    height: 35px;
+    align-items: center;
+    gap: 7px;
+    flex-shrink: 0;
+  }
+  

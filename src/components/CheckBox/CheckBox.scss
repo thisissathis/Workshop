@@ -1,0 +1,29 @@
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4.2px;
+  }
+  
+  .custom-checkbox {
+    display: none;
+  }
+  
+  .checkmark {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 5.2px;
+    background: #0071E3;
+    border: 1px solid #0071E3;
+  }
+  
+  .checkmark svg {
+    fill: white;
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+  }
+  

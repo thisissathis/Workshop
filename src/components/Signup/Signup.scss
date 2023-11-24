@@ -1,0 +1,97 @@
+@mixin flex-column($justify-content: flex-start, $align-items: flex-start, $gap: 0) {
+    display: flex;
+    flex-direction: column;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    gap: $gap;
+  }
+  
+  @mixin button-styles($width: fit-content, $padding: 10px 50px, $border-radius: 8px, $border: 1px solid var(--grey-900, #19191A), $background: var(--grey-900, #19191A)) {
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    width: $width;
+    padding: $padding;
+    justify-content: center;
+    align-items: center;
+    border-radius: $border-radius;
+    border: $border;
+    background: $background;
+  }
+  
+  @mixin input-field-styles {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 8px;
+    border: 1px solid #E5E5E6;
+    background: #FFF;
+    font-family: Inter;
+    font-style: normal;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.04), 0px 4px 10px 0px rgba(0, 0, 0, 0.04);
+  }
+  .signup-component {
+    @include flex-column(flex-start, flex-start, 25px);
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    .signup-header {
+      color: #B0B1B3;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 120%;
+      width: 175px;
+      gap: 20px;
+    }
+  
+    .signup-actions {
+      @include flex-column(center, center);
+  
+      .input-with-action {
+        @include flex-column(center, center, 15px);
+  
+        .input-container {
+          margin: 0;
+  
+          .input-field {
+            @include input-field-styles;
+            font-size:12px;
+            padding: 10px 25px;
+          }
+        }
+  
+        .custom-button {
+          @include button-styles(100%);
+          font-size: 12px;
+        }
+      }
+  
+      .signup-info {
+        display: inline-flex;
+        padding: 20px 0px;
+        justify-content: center;
+        align-items: center;
+        color: #19191A;
+        font-size: 12px;
+        font-weight: 500;
+      }
+      .signup-error-message{
+        display: inline-flex;
+        padding: 20px 0px;
+        justify-content: center;
+        align-items: center;
+        color: red;
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+  }
+    

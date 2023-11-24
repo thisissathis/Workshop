@@ -1,0 +1,48 @@
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color:#19191a;
+    font-family: Inter;
+    font-style: normal;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .name {
+    color: #19191a;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 120%; /* 19.2px */
+  }
+  
+  .role {
+    
+    color: #96979A;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+  }
+  
+  .comment {
+    color: #1D2129;
+    width: max-content;
+    max-width: 400px;
+    height: 57px;
+    height: 80px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: justify;
+  }
+  

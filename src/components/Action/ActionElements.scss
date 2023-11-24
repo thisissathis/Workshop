@@ -1,0 +1,33 @@
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .custom-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .link-button {
+    background-color: transparent;
+    color: #19191A;
+    border: none;
+    text-align: right;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 10.92px */
+    padding: 0;
+  }
+  
+  .link-button:hover {
+    background-color: transparent;
+    color: #0056b3;
+  }
+  
